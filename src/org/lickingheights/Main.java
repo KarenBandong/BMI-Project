@@ -9,9 +9,12 @@ public class Main {
         double pounds, inches;
         String Username, greetings;
         greetings= "Hello!";
-        Scanner keyboard= new Scanner(System.int);
+        Scanner keyboard= new Scanner(System.in);
         System.out.println(greetings+ "What is your name?");
         Username= keyboard.nextLine();
+        System.out.println("Hi!"+ Username+ "I would like to ask you some questions.");
+        System.out.println("For starters, what is your height in inches?");
+        inches= keyboard.nextDouble()*0.0254;
         
     }
 }
