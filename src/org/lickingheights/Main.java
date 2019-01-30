@@ -15,6 +15,8 @@ public class Main {
         System.out.println("Hi!"+ Username+ "I would like to ask you some questions.");
         System.out.println("For starters, what is your height in inches?");
         inches= keyboard.nextDouble()*0.0254;
+        System.out.println("What is your weight in pounds?");
+        pounds= keyboard.nextDouble()*0.454;
         
     }
 }
