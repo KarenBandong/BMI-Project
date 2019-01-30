@@ -10,6 +10,8 @@ public class Main {
         String Username, greetings;
         greetings= "Hello!";
         Scanner keyboard= new Scanner(System.int);
+        System.out.println(greetings+ "What is your name?");
+        Username= keyboard.nextLine();
         
     }
 }
