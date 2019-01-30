@@ -17,6 +17,6 @@ public class Main {
         inches= keyboard.nextDouble()*0.0254;
         System.out.println("What is your weight in pounds?");
         pounds= keyboard.nextDouble()*0.454;
-        
+        System.out.println("Your Body Mass Index also known as BMI is"+ (pounds /(inches*inches)));
     }
 }
